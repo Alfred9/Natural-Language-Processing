@@ -1,6 +1,6 @@
 # Natural Language Processing Projects Repository
 
-Welcome to the "Natural-Language-Processing-Projects" repository! Here, you'll find a collection of projects focused on various aspects of Natural Language Processing (NLP). Whether you're a beginner looking to explore the basics or an experienced practitioner seeking advanced techniques, this repository aims to provide valuable resources and insights into the field of NLP.
+Welcome to the Natural Language Processing Projects Repository! This repository contains projects focused on various aspects of Natural Language Processing (NLP). Each project explores a specific NLP task, providing implementations, resources, and insights into its application.
 
 ## Folders:
 
