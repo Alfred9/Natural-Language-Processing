@@ -31,9 +31,4 @@ Contributions make this repository thrive! Whether you're adding new projects, i
 
 This repository is open-source and distributed under the MIT License. You're encouraged to use, modify, and share the code for educational and non-commercial purposes, respecting the terms of the license.
 
-## 📞 Get in Touch:
-
-Questions? Suggestions? Feedback? We'd love to hear from you! Reach out to the repository owner, Alfred9, or engage with the community through discussions and comments.
-
-Thank you for joining us on this NLP journey! Let's innovate, learn, and explore together! 🚀✨
 
