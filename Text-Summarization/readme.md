@@ -23,8 +23,5 @@ The code provided in this repository illustrates how to implement the above step
 
 The summarized text provides a concise representation of the input text while retaining its semantic meaning.
 
-## Author
-
-This code was authored by [Your Name].
 
 
