@@ -1,4 +1,4 @@
-# Topic Modeling with PySpark
+# Topic Modeling 
 
 This repository contains code for performing topic modeling on textual data using PySpark. 
 Topic modeling is a technique used to uncover latent topics within a collection of documents.
