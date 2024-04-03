@@ -2,7 +2,7 @@
 
 Welcome to the Natural Language Processing Projects Repository! This repository contains projects focused on various aspects of Natural Language Processing (NLP). Each project explores a specific NLP task, providing implementations, resources, and insights into its application.
 
-## Folders:
+## :
 
 1. **Healthcare NLP:**
    - This folder contains projects related to the application of NLP in healthcare, including tasks such as clinical text analysis, medical document classification, and more.
