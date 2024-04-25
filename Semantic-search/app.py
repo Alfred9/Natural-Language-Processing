@@ -4,7 +4,7 @@ from numpy.linalg import norm
 
 @st.cache_resource
 def load_model():
-    model = AutoModel.from_pretrained('jinaai/jina-embeddings-v2-base-en', trust_remote_code=True)
+    model = AutoModel.from_pretrained('jinaai/jina-embeddings-v2-base-en', trust_remote_code=True, revision="main")
     return model
 
 cos_sim = lambda a, b: (a @ b.T) / (norm(a) * norm(b))
