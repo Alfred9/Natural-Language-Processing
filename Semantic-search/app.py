@@ -15,7 +15,7 @@ def compare_sentences(input_sentences, sentences):
     for input_sentence in input_sentences:
         input_embedding = model.encode([input_sentence])[0]
         sentence_results = []
-        for sentence in sentences:
+        for sentence in [s for s in sentences if s.strip()]:  # Filter out empty strings
             sentence_embedding = model.encode([sentence])[0]
             similarity = cos_sim(input_embedding, sentence_embedding)
             sentence_results.append((sentence, similarity))
@@ -23,11 +23,10 @@ def compare_sentences(input_sentences, sentences):
     return output
 
 def main():
-    st.title("Sentence Similarity ")
+    st.title("Sentence Similarity Comparison")
 
-    input_sentences = st.text_area("Input Sentence", height=100).split("\n")
-
-    sentences = st.text_area("Sentence to Compare", height=200).split("\n")
+    input_sentences = st.text_area("Input Sentences", height=100).split("\n")
+    sentences = st.text_area("Sentences to Compare", height=200).split("\n")
 
     if input_sentences and sentences:
         results = compare_sentences(input_sentences, sentences)
