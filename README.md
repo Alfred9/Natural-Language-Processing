@@ -25,6 +25,6 @@ Contributions to this repository are welcome! Whether it's adding new projects, 
 
 ### License:
 
-This repository is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code within this repository for educational and non-commercial purposes, respecting the terms of the license...
+This repository is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code within this repository for educational and non-commercial purposes, respecting the terms of the license.....
 
 
