@@ -1,4 +1,0 @@
-streamlit
-transformers
-numpy
-torch==1.13.1
