@@ -7,16 +7,13 @@ Welcome to the Natural Language Processing Projects Repository! This repository 
 1. **Healthcare NLP:**
    - This folder contains projects related to the application of NLP in healthcare, including tasks such as clinical text analysis, medical document classification, and more.
 
-2. **NLU (Natural Language Understanding):**
-   - Explore projects centered around natural language understanding, covering tasks like sentiment analysis, text classification.
-
-3. **Named Entity Recognition:**
+2. **Named Entity Recognition:**
    - Dive into projects focusing on named entity recognition (NER), a crucial task in NLP aimed at identifying and categorizing entities mentioned in text, such as names of people, organizations, locations, and more.
 
-4. **Text Summarization:**
+3. **Text Summarization:**
    - Discover projects dedicated to text summarization, where the goal is to condense large pieces of text into concise summaries while preserving the key information and meaning.
 
-5. **Topic Modeling:**
+4. **Topic Modeling:**
    - Explore projects related to topic modeling, a technique used to discover abstract topics within a collection of documents. These projects may include implementations of algorithms like Latent Dirichlet Allocation (LDA) or Non-negative Matrix Factorization (NMF).
 
 ### How to Contribute:
