@@ -9,12 +9,17 @@ import os
 def load_model():
     # Download and initialize the MIMIC pipeline with i2b2 NER model
     try:
-        with st.spinner("Loading clinical NER model (first run may take a few minutes)..."):
-            stanza.download('en', package='mimic', processors={'ner': 'i2b2'})
-            nlp = stanza.Pipeline('en', package='mimic', processors={'ner': 'i2b2'})
+        # Add a check to see if the model is already downloaded
+        import os
+        model_dir = os.path.expanduser('~/stanza_resources/')
+        if not os.path.exists(os.path.join(model_dir, 'en', 'mimic', 'ner', 'i2b2')):
+            st.info("Downloading model for the first time. This may take a few minutes...")
+        stanza.download('en', package='mimic', processors={'ner': 'i2b2'}, verbose=True)
+        nlp = stanza.Pipeline('en', package='mimic', processors={'ner': 'i2b2'}, verbose=True)
         return nlp
     except Exception as e:
         st.error(f"Error loading model: {str(e)}")
+        st.info("If the error persists, please contact the administrator. The app might need more resources to download and run the model.")
         return None
 
 def process_text_with_stanza(text, nlp):
