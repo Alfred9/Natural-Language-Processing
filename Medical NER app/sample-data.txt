@@ -1,0 +1,7 @@
+Patient is a 72-year-old male with a past medical history of coronary artery disease, hypertension, and type 2 diabetes admitted on 06/15/2023 with complaints of shortness of breath and chest discomfort. Vital signs on admission: BP 160/95, HR 92, RR 20, Temp 98.6°F, SpO2 94% on room air.
+
+Physical examination revealed bilateral crackles in lung bases. Cardiovascular exam showed regular rate and rhythm with S1, S2 present, no murmurs. ECG demonstrated sinus rhythm with T-wave inversions in leads V3-V6. Initial laboratory studies showed BNP 950 pg/mL, Troponin I 0.08 ng/mL, Creatinine 1.3 mg/dL, and BUN 25 mg/dL.
+
+Chest X-ray showed pulmonary edema and cardiomegaly. The patient was diagnosed with acute decompensated heart failure and was treated with IV Lasix 40mg BID, Lisinopril 10mg daily, and Metoprolol 25mg BID. Oxygen therapy via nasal cannula at 2L/min was initiated.
+
+Echocardiogram revealed an ejection fraction of 40% with global hypokinesis. The patient responded well to diuretic therapy with improvement in symptoms. He was discharged on day 5 with prescriptions for Lasix 40mg daily, Lisinopril 10mg daily, Metoprolol 25mg BID, and Spironolactone 25mg daily. Recommended follow-up with cardiology in 2 weeks.
