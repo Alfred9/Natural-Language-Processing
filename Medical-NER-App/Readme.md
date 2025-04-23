@@ -2,7 +2,6 @@
 
 A Streamlit application for extracting medical entities from clinical text using Stanza with the MIMIC/i2b2 model.
 
-![Medical NER App Screenshot](https://raw.githubusercontent.com/yourusername/medical-ner-app/main/screenshot.png)
 
 ## Features
 
@@ -14,16 +13,9 @@ A Streamlit application for extracting medical entities from clinical text using
 
 ## Live Demo
 
-Try it out on Streamlit Cloud: [Medical NER App](https://medical-ner-app.streamlit.app/)
+
 
 ## Installation
-
-Clone this repository:
-
-```bash
-git clone https://github.com/yourusername/medical-ner-app.git
-cd medical-ner-app
-```
 
 Install the required packages:
 
@@ -57,7 +49,7 @@ To deploy this app on Streamlit Cloud:
 
 ## Model Information
 
-The app uses Stanza's MIMIC pipeline with the i2b2 NER model, which is specifically designed for biomedical and clinical text processing. It recognizes:
+The app uses Gpt-4o, which is specifically designed for biomedical and clinical text processing. It recognizes:
 
 - **PROBLEM**: Medical problems/conditions
 - **TREATMENT**: Treatments, medications, procedures
