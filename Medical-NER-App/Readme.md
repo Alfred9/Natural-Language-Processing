@@ -1,75 +1,37 @@
-# Medical Named Entity Recognition App
+# 🧬 Biomedical NER with Azure OpenAI / OpenAI API
 
-A Streamlit application for extracting medical entities from clinical text using Stanza with the MIMIC/i2b2 model.
+This is a simple Python app that extracts biomedical entities (e.g., diseases, drugs, symptoms, treatments) from clinical notes using large language models.
 
+You can run it using:
+- **Azure OpenAI Service** (recommended for enterprise or cloud deployment), or
+- **OpenAI API** (via direct API key from OpenAI)
 
-## Features
+---
 
-- Extract medical entities from clinical text
-- Support for text input, PDF, Word documents, and TXT files
-- Entity visualization and statistics
-- Based on Stanza's MIMIC pipeline with i2b2 NER model
-- Recognizes medical problems, treatments, and tests
+## 🔧 Features
 
-## Live Demo
+- Extracts structured entities in JSON format from clinical text
+- Built-in support for `gpt-4o`, `gpt-4`, or your own Azure OpenAI deployment
+- Uses structured prompts to improve model consistency
+- Includes logging and error handling
+- Easy to run locally via CLI
 
+---
 
+## 📦 Requirements
 
-## Installation
+- Python 3.8 or newer
+- A valid API key from either:
+  - Azure OpenAI resource, or
+  - OpenAI (e.g. `https://platform.openai.com`)
+- A deployed model (`gpt-4`, `gpt-4o`, or custom)
 
-Install the required packages:
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone this repository
 
 ```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-Run the Streamlit app:
-
-```bash
-streamlit run app.py
-```
-
-The app will open in your default web browser. You can:
-
-1. Enter medical text directly in the text area
-2. Upload a PDF, Word document, or TXT file
-3. Click "Extract Entities" to process the text
-4. View the extracted entities and statistics
-
-## Deployment on Streamlit Cloud
-
-To deploy this app on Streamlit Cloud:
-
-1. Fork this repository to your GitHub account
-2. Go to [Streamlit Cloud](https://streamlit.io/cloud)
-3. Click "New app" and select the repository
-4. Configure app settings and deploy
-
-## Model Information
-
-The app uses Gpt-4o, which is specifically designed for biomedical and clinical text processing. It recognizes:
-
-- **PROBLEM**: Medical problems/conditions
-- **TREATMENT**: Treatments, medications, procedures
-- **TEST**: Diagnostic tests and measures
-
-## Example Text
-
-Here's a sample text you can use to test the app:
-
-```
-The patient was a 56-year-old female admitted on 5/12/2021 with chief complaint of chest pain. History of diabetes mellitus, hypertension, and COPD. ECG showed normal sinus rhythm. Labs revealed elevated troponin at 0.12. Patient was treated with aspirin 325mg, Plavix 75mg, and IV heparin. Echo showed preserved EF of 60% with mild MR.
-```
-
-## License
-
-MIT License
-
-## Acknowledgements
-
-- [Stanza](https://stanfordnlp.github.io/stanza/) for the clinical NLP library
-- [Streamlit](https://streamlit.io/) for the web application framework
-- [i2b2](https://www.i2b2.org/) for the named entity recognition training data
-
+git clone https://github.com/Alfred9/Natural-Language-Processing/edit/main/Medical-NER-App.git
+cd Medical-NER-App
