@@ -35,3 +35,100 @@ You can run it using:
 ```bash
 git clone https://github.com/Alfred9/Natural-Language-Processing/edit/main/Medical-NER-App.git
 cd Medical-NER-App
+```
+
+### 2. Create and activate a virtual environment (optional)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # on Windows use: venv\Scripts\activate
+```
+
+### 3. Install required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set up your `.env` file
+
+Create a `.env` file in the root directory and fill it with one of the following:
+
+#### For **Azure OpenAI**:
+
+```env
+OPENAI_API_KEY=your-azure-openai-api-key
+AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com/
+MODEL_DEPLOYMENT_ID=gpt-4o  # or your deployment name
+```
+
+#### For **OpenAI** (non-Azure):
+
+```env
+OPENAI_API_KEY=your-openai-api-key
+USE_OPENAI_DIRECT=true
+```
+
+> ⚠ Make sure to use the correct API key and endpoint depending on your provider.
+
+---
+
+##  Running the App Locally
+
+Run the app with:
+
+```bash
+python ner.py
+```
+
+You should see output like:
+
+```json
+{
+  "diseases": ["hypertension"],
+  "drugs": ["lisinopril"],
+  "symptoms": [],
+  "treatments": []
+}
+```
+
+---
+
+##  Example Input and Output
+
+**Input clinical note:**
+```
+Patient diagnosed with hypertension and prescribed lisinopril.
+```
+
+**Output JSON:**
+```json
+{
+  "diseases": ["hypertension"],
+  "drugs": ["lisinopril"],
+  "symptoms": [],
+  "treatments": []
+  "Tests": []
+}
+```
+
+---
+
+## 📂 Project Structure
+
+```
+.
+├── ner.py             # Main Python script
+├── .env               # Environment variables 
+├── requirements.txt   # Python dependencies
+└── README.md          # Project instructions
+```
+
+Install them via:
+
+```bash
+pip install -r requirements.txt
+```
+## 📄 License
+
+MIT License — feel free to use and adapt for personal or commercial projects. Attribution appreciated.
