@@ -8,7 +8,7 @@ You can run it using:
 
 ---
 
-## 🔧 Features
+##  Features
 
 - Extracts structured entities in JSON format from clinical text
 - Built-in support for `gpt-4o`, `gpt-4`, or your own Azure OpenAI deployment
@@ -18,7 +18,7 @@ You can run it using:
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8 or newer
 - A valid API key from either:
@@ -28,7 +28,7 @@ You can run it using:
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone this repository
 
@@ -114,7 +114,7 @@ Patient diagnosed with hypertension and prescribed lisinopril.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
