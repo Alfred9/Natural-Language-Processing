@@ -1,4 +1,4 @@
-# 🧬 Biomedical NER with Azure OpenAI / OpenAI API
+#  Medical NER App
 
 This is a simple Python app that extracts biomedical entities (e.g., diseases, drugs, symptoms, treatments) from clinical notes using large language models.
 
