@@ -21,9 +21,7 @@ You can run it using:
 ## Requirements
 
 - Python 3.8 or newer
-- A valid API key from either:
-  - Azure OpenAI resource, or
-  - OpenAI (e.g. `https://platform.openai.com`)
+- A valid API key from OpenAiI 
 - A deployed model (`gpt-4`, `gpt-4o`, or custom)
 
 ---
