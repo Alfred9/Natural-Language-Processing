@@ -86,7 +86,8 @@ You should see output like:
   "diseases": ["hypertension"],
   "drugs": ["lisinopril"],
   "symptoms": [],
-  "treatments": []
+  "treatments": [],
+  "Tests": []
 }
 ```
 
